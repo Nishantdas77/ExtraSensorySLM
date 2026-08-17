@@ -1,0 +1,6 @@
+data/
+feat_chunks/
+label_table.csv
+result.txt
+rf_model.joblib
+windows.npz
