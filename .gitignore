@@ -10,6 +10,6 @@ feat40.npz
 rf_model_40hz.joblib
 rf_results.npz
 train_rf_old.py
-rf_train.py
-train_cnn.py
-verify_dataset.py
+rf_trainn.py
+train_cnnn.py
+verify_datasets.py
