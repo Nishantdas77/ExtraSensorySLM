@@ -1,0 +1,1852 @@
+{
+  "recording_duration_sec": 12212.0,
+  "time_base": "seconds from start",
+  "sampling_rate_hz": 40,
+  "window_sec": 3.0,
+  "model": "rf",
+  "n_windows": 1401,
+  "intervals": [
+    {
+      "activity": "sitting",
+      "start": 0.0,
+      "end": 1759.0,
+      "duration": 1759.0,
+      "confidence": 0.58,
+      "evidence": {
+        "acc_motion_std": 0.0092,
+        "gyro_energy": 0.0508,
+        "dominant_freq_hz": 1.55,
+        "tilt_z": -0.938
+      }
+    },
+    {
+      "activity": "standing_in_place",
+      "start": 1798.0,
+      "end": 1813.0,
+      "duration": 15.0,
+      "confidence": 0.434,
+      "evidence": {
+        "acc_motion_std": 0.0525,
+        "gyro_energy": 0.1742,
+        "dominant_freq_hz": 0.4,
+        "tilt_z": -0.039
+      }
+    },
+    {
+      "activity": "walking",
+      "start": 1813.0,
+      "end": 1876.0,
+      "duration": 63.0,
+      "confidence": 0.577,
+      "evidence": {
+        "acc_motion_std": 0.2608,
+        "gyro_energy": 4.4012,
+        "dominant_freq_hz": 1.88,
+        "tilt_z": 0.046
+      }
+    },
+    {
+      "activity": "standing_in_place",
+      "start": 1876.0,
+      "end": 1933.0,
+      "duration": 57.0,
+      "confidence": 0.363,
+      "evidence": {
+        "acc_motion_std": 0.0386,
+        "gyro_energy": 0.2482,
+        "dominant_freq_hz": 1.22,
+        "tilt_z": -0.036
+      }
+    },
+    {
+      "activity": "standing_and_moving",
+      "start": 1933.0,
+      "end": 1996.0,
+      "duration": 63.0,
+      "confidence": 0.365,
+      "evidence": {
+        "acc_motion_std": 0.0067,
+        "gyro_energy": 0.0072,
+        "dominant_freq_hz": 0.92,
+        "tilt_z": 0.294
+      }
+    },
+    {
+      "activity": "walking",
+      "start": 1996.0,
+      "end": 2059.0,
+      "duration": 63.0,
+      "confidence": 0.501,
+      "evidence": {
+        "acc_motion_std": 0.1981,
+        "gyro_energy": 3.3591,
+        "dominant_freq_hz": 0.54,
+        "tilt_z": -0.192
+      }
+    },
+    {
+      "activity": "standing_in_place",
+      "start": 2098.0,
+      "end": 2167.0,
+      "duration": 69.0,
+      "confidence": 0.368,
+      "evidence": {
+        "acc_motion_std": 0.0328,
+        "gyro_energy": 0.1098,
+        "dominant_freq_hz": 1.07,
+        "tilt_z": -0.021
+      }
+    },
+    {
+      "activity": "walking",
+      "start": 2167.0,
+      "end": 2173.0,
+      "duration": 6.0,
+      "confidence": 0.331,
+      "evidence": {
+        "acc_motion_std": 0.0822,
+        "gyro_energy": 0.8423,
+        "dominant_freq_hz": 0.67,
+        "tilt_z": 0.08
+      }
+    },
+    {
+      "activity": "standing_in_place",
+      "start": 2173.0,
+      "end": 2221.0,
+      "duration": 48.0,
+      "confidence": 0.317,
+      "evidence": {
+        "acc_motion_std": 0.0277,
+        "gyro_energy": 0.1294,
+        "dominant_freq_hz": 0.33,
+        "tilt_z": 0.142
+      }
+    },
+    {
+      "activity": "walking",
+      "start": 2221.0,
+      "end": 2236.0,
+      "duration": 15.0,
+      "confidence": 0.307,
+      "evidence": {
+        "acc_motion_std": 0.1015,
+        "gyro_energy": 3.0015,
+        "dominant_freq_hz": 0.46,
+        "tilt_z": -0.126
+      }
+    },
+    {
+      "activity": "standing_in_place",
+      "start": 2236.0,
+      "end": 2344.0,
+      "duration": 108.0,
+      "confidence": 0.345,
+      "evidence": {
+        "acc_motion_std": 0.0613,
+        "gyro_energy": 0.685,
+        "dominant_freq_hz": 0.47,
+        "tilt_z": -0.956
+      }
+    },
+    {
+      "activity": "walking",
+      "start": 2344.0,
+      "end": 2350.0,
+      "duration": 6.0,
+      "confidence": 0.351,
+      "evidence": {
+        "acc_motion_std": 0.251,
+        "gyro_energy": 3.3215,
+        "dominant_freq_hz": 0.33,
+        "tilt_z": -0.097
+      }
+    },
+    {
+      "activity": "standing_in_place",
+      "start": 2350.0,
+      "end": 2461.0,
+      "duration": 111.0,
+      "confidence": 0.331,
+      "evidence": {
+        "acc_motion_std": 0.1375,
+        "gyro_energy": 1.633,
+        "dominant_freq_hz": 0.39,
+        "tilt_z": -0.417
+      }
+    },
+    {
+      "activity": "walking",
+      "start": 2461.0,
+      "end": 2479.0,
+      "duration": 18.0,
+      "confidence": 0.582,
+      "evidence": {
+        "acc_motion_std": 0.2649,
+        "gyro_energy": 2.9748,
+        "dominant_freq_hz": 0.84,
+        "tilt_z": 0.089
+      }
+    },
+    {
+      "activity": "standing_in_place",
+      "start": 2518.0,
+      "end": 2539.0,
+      "duration": 21.0,
+      "confidence": 0.4,
+      "evidence": {
+        "acc_motion_std": 0.0203,
+        "gyro_energy": 0.0674,
+        "dominant_freq_hz": 0.62,
+        "tilt_z": -0.083
+      }
+    },
+    {
+      "activity": "walking",
+      "start": 2578.0,
+      "end": 3061.0,
+      "duration": 483.0,
+      "confidence": 0.58,
+      "evidence": {
+        "acc_motion_std": 0.2228,
+        "gyro_energy": 2.9542,
+        "dominant_freq_hz": 1.04,
+        "tilt_z": -0.152
+      }
+    },
+    {
+      "activity": "standing_in_place",
+      "start": 3061.0,
+      "end": 3076.0,
+      "duration": 15.0,
+      "confidence": 0.323,
+      "evidence": {
+        "acc_motion_std": 0.0675,
+        "gyro_energy": 0.2626,
+        "dominant_freq_hz": 0.6,
+        "tilt_z": -0.012
+      }
+    },
+    {
+      "activity": "standing_and_moving",
+      "start": 3076.0,
+      "end": 3121.0,
+      "duration": 45.0,
+      "confidence": 0.291,
+      "evidence": {
+        "acc_motion_std": 0.0183,
+        "gyro_energy": 0.0272,
+        "dominant_freq_hz": 1.5,
+        "tilt_z": 0.389
+      }
+    },
+    {
+      "activity": "walking",
+      "start": 3121.0,
+      "end": 3124.0,
+      "duration": 3.0,
+      "confidence": 0.288,
+      "evidence": {
+        "acc_motion_std": 0.3069,
+        "gyro_energy": 2.1355,
+        "dominant_freq_hz": 0.33,
+        "tilt_z": 0.421
+      }
+    },
+    {
+      "activity": "standing_in_place",
+      "start": 3124.0,
+      "end": 3139.0,
+      "duration": 15.0,
+      "confidence": 0.308,
+      "evidence": {
+        "acc_motion_std": 0.0745,
+        "gyro_energy": 2.2711,
+        "dominant_freq_hz": 0.4,
+        "tilt_z": -0.928
+      }
+    },
+    {
+      "activity": "standing_and_moving",
+      "start": 3178.0,
+      "end": 3184.0,
+      "duration": 6.0,
+      "confidence": 0.253,
+      "evidence": {
+        "acc_motion_std": 0.2954,
+        "gyro_energy": 5.1908,
+        "dominant_freq_hz": 0.5,
+        "tilt_z": -0.333
+      }
+    },
+    {
+      "activity": "walking",
+      "start": 3184.0,
+      "end": 3187.0,
+      "duration": 3.0,
+      "confidence": 0.295,
+      "evidence": {
+        "acc_motion_std": 0.0187,
+        "gyro_energy": 0.014,
+        "dominant_freq_hz": 0.67,
+        "tilt_z": 0.091
+      }
+    },
+    {
+      "activity": "standing_and_moving",
+      "start": 3187.0,
+      "end": 3190.0,
+      "duration": 3.0,
+      "confidence": 0.23,
+      "evidence": {
+        "acc_motion_std": 0.2178,
+        "gyro_energy": 1.7828,
+        "dominant_freq_hz": 0.33,
+        "tilt_z": 0.328
+      }
+    },
+    {
+      "activity": "bicycling",
+      "start": 3190.0,
+      "end": 3319.0,
+      "duration": 129.0,
+      "confidence": 0.698,
+      "evidence": {
+        "acc_motion_std": 0.1989,
+        "gyro_energy": 2.7866,
+        "dominant_freq_hz": 1.43,
+        "tilt_z": 0.401
+      }
+    },
+    {
+      "activity": "standing_and_moving",
+      "start": 3358.0,
+      "end": 3370.0,
+      "duration": 12.0,
+      "confidence": 0.263,
+      "evidence": {
+        "acc_motion_std": 0.0551,
+        "gyro_energy": 0.396,
+        "dominant_freq_hz": 1.42,
+        "tilt_z": 0.366
+      }
+    },
+    {
+      "activity": "bicycling",
+      "start": 3370.0,
+      "end": 3439.0,
+      "duration": 69.0,
+      "confidence": 0.524,
+      "evidence": {
+        "acc_motion_std": 0.0923,
+        "gyro_energy": 0.6264,
+        "dominant_freq_hz": 1.43,
+        "tilt_z": 0.243
+      }
+    },
+    {
+      "activity": "standing_in_place",
+      "start": 3478.0,
+      "end": 3550.0,
+      "duration": 72.0,
+      "confidence": 0.372,
+      "evidence": {
+        "acc_motion_std": 0.0872,
+        "gyro_energy": 1.2594,
+        "dominant_freq_hz": 0.6,
+        "tilt_z": 0.093
+      }
+    },
+    {
+      "activity": "walking",
+      "start": 3550.0,
+      "end": 3553.0,
+      "duration": 3.0,
+      "confidence": 0.36,
+      "evidence": {
+        "acc_motion_std": 0.1532,
+        "gyro_energy": 1.9121,
+        "dominant_freq_hz": 0.67,
+        "tilt_z": 0.328
+      }
+    },
+    {
+      "activity": "bicycling",
+      "start": 3553.0,
+      "end": 3664.0,
+      "duration": 111.0,
+      "confidence": 0.611,
+      "evidence": {
+        "acc_motion_std": 0.1316,
+        "gyro_energy": 1.3996,
+        "dominant_freq_hz": 3.54,
+        "tilt_z": 0.337
+      }
+    },
+    {
+      "activity": "walking",
+      "start": 3664.0,
+      "end": 3727.0,
+      "duration": 63.0,
+      "confidence": 0.464,
+      "evidence": {
+        "acc_motion_std": 0.3081,
+        "gyro_energy": 4.1241,
+        "dominant_freq_hz": 0.67,
+        "tilt_z": 0.237
+      }
+    },
+    {
+      "activity": "standing_in_place",
+      "start": 3727.0,
+      "end": 3781.0,
+      "duration": 54.0,
+      "confidence": 0.308,
+      "evidence": {
+        "acc_motion_std": 0.1139,
+        "gyro_energy": 0.5936,
+        "dominant_freq_hz": 0.4,
+        "tilt_z": 0.074
+      }
+    },
+    {
+      "activity": "walking",
+      "start": 3781.0,
+      "end": 3790.0,
+      "duration": 9.0,
+      "confidence": 0.302,
+      "evidence": {
+        "acc_motion_std": 0.1685,
+        "gyro_energy": 0.8271,
+        "dominant_freq_hz": 0.33,
+        "tilt_z": 0.132
+      }
+    },
+    {
+      "activity": "standing_in_place",
+      "start": 3790.0,
+      "end": 3841.0,
+      "duration": 51.0,
+      "confidence": 0.374,
+      "evidence": {
+        "acc_motion_std": 0.1457,
+        "gyro_energy": 1.0183,
+        "dominant_freq_hz": 1.0,
+        "tilt_z": -0.186
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 3841.0,
+      "end": 3967.0,
+      "duration": 126.0,
+      "confidence": 0.319,
+      "evidence": {
+        "acc_motion_std": 0.0229,
+        "gyro_energy": 0.0777,
+        "dominant_freq_hz": 1.1,
+        "tilt_z": -0.878
+      }
+    },
+    {
+      "activity": "walking",
+      "start": 3967.0,
+      "end": 3976.0,
+      "duration": 9.0,
+      "confidence": 0.311,
+      "evidence": {
+        "acc_motion_std": 0.1963,
+        "gyro_energy": 2.1812,
+        "dominant_freq_hz": 0.55,
+        "tilt_z": -0.398
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 3976.0,
+      "end": 4027.0,
+      "duration": 51.0,
+      "confidence": 0.265,
+      "evidence": {
+        "acc_motion_std": 0.0555,
+        "gyro_energy": 0.0429,
+        "dominant_freq_hz": 1.17,
+        "tilt_z": 0.211
+      }
+    },
+    {
+      "activity": "walking",
+      "start": 4027.0,
+      "end": 4081.0,
+      "duration": 54.0,
+      "confidence": 0.323,
+      "evidence": {
+        "acc_motion_std": 0.08,
+        "gyro_energy": 0.2128,
+        "dominant_freq_hz": 1.33,
+        "tilt_z": 0.121
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 4081.0,
+      "end": 4147.0,
+      "duration": 66.0,
+      "confidence": 0.325,
+      "evidence": {
+        "acc_motion_std": 0.0799,
+        "gyro_energy": 1.3634,
+        "dominant_freq_hz": 0.52,
+        "tilt_z": 0.059
+      }
+    },
+    {
+      "activity": "walking",
+      "start": 4147.0,
+      "end": 4150.0,
+      "duration": 3.0,
+      "confidence": 0.308,
+      "evidence": {
+        "acc_motion_std": 0.2159,
+        "gyro_energy": 2.4879,
+        "dominant_freq_hz": 0.33,
+        "tilt_z": -0.863
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 4150.0,
+      "end": 4156.0,
+      "duration": 6.0,
+      "confidence": 0.312,
+      "evidence": {
+        "acc_motion_std": 0.0598,
+        "gyro_energy": 1.0389,
+        "dominant_freq_hz": 0.33,
+        "tilt_z": 0.274
+      }
+    },
+    {
+      "activity": "standing_and_moving",
+      "start": 4156.0,
+      "end": 4207.0,
+      "duration": 51.0,
+      "confidence": 0.382,
+      "evidence": {
+        "acc_motion_std": 0.002,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 3.17,
+        "tilt_z": 0.423
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 4207.0,
+      "end": 4267.0,
+      "duration": 60.0,
+      "confidence": 0.274,
+      "evidence": {
+        "acc_motion_std": 0.021,
+        "gyro_energy": 0.0175,
+        "dominant_freq_hz": 1.57,
+        "tilt_z": 0.331
+      }
+    },
+    {
+      "activity": "standing_in_place",
+      "start": 4267.0,
+      "end": 4381.0,
+      "duration": 114.0,
+      "confidence": 0.296,
+      "evidence": {
+        "acc_motion_std": 0.0328,
+        "gyro_energy": 0.0675,
+        "dominant_freq_hz": 0.81,
+        "tilt_z": 0.138
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 4381.0,
+      "end": 4447.0,
+      "duration": 66.0,
+      "confidence": 0.349,
+      "evidence": {
+        "acc_motion_std": 0.0148,
+        "gyro_energy": 0.053,
+        "dominant_freq_hz": 0.37,
+        "tilt_z": -0.39
+      }
+    },
+    {
+      "activity": "standing_and_moving",
+      "start": 4447.0,
+      "end": 4504.0,
+      "duration": 57.0,
+      "confidence": 0.383,
+      "evidence": {
+        "acc_motion_std": 0.0021,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 4.17,
+        "tilt_z": 0.147
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 4504.0,
+      "end": 4507.0,
+      "duration": 3.0,
+      "confidence": 0.414,
+      "evidence": {
+        "acc_motion_std": 0.0018,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 5.67,
+        "tilt_z": 0.151
+      }
+    },
+    {
+      "activity": "standing_and_moving",
+      "start": 4507.0,
+      "end": 4513.0,
+      "duration": 6.0,
+      "confidence": 0.347,
+      "evidence": {
+        "acc_motion_std": 0.0029,
+        "gyro_energy": 0.0002,
+        "dominant_freq_hz": 0.33,
+        "tilt_z": 0.152
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 4513.0,
+      "end": 4516.0,
+      "duration": 3.0,
+      "confidence": 0.396,
+      "evidence": {
+        "acc_motion_std": 0.0026,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 1.0,
+        "tilt_z": 0.153
+      }
+    },
+    {
+      "activity": "standing_and_moving",
+      "start": 4516.0,
+      "end": 4579.0,
+      "duration": 63.0,
+      "confidence": 0.432,
+      "evidence": {
+        "acc_motion_std": 0.0017,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 4.04,
+        "tilt_z": 0.158
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 4618.0,
+      "end": 4636.0,
+      "duration": 18.0,
+      "confidence": 0.296,
+      "evidence": {
+        "acc_motion_std": 0.0209,
+        "gyro_energy": 0.0437,
+        "dominant_freq_hz": 0.39,
+        "tilt_z": -0.835
+      }
+    },
+    {
+      "activity": "standing_in_place",
+      "start": 4636.0,
+      "end": 4639.0,
+      "duration": 3.0,
+      "confidence": 0.377,
+      "evidence": {
+        "acc_motion_std": 0.0092,
+        "gyro_energy": 0.0053,
+        "dominant_freq_hz": 0.33,
+        "tilt_z": -0.876
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 4678.0,
+      "end": 5119.0,
+      "duration": 441.0,
+      "confidence": 0.402,
+      "evidence": {
+        "acc_motion_std": 0.0078,
+        "gyro_energy": 0.0225,
+        "dominant_freq_hz": 2.42,
+        "tilt_z": -0.742
+      }
+    },
+    {
+      "activity": "standing_in_place",
+      "start": 5158.0,
+      "end": 5161.0,
+      "duration": 3.0,
+      "confidence": 0.239,
+      "evidence": {
+        "acc_motion_std": 0.0454,
+        "gyro_energy": 0.0589,
+        "dominant_freq_hz": 0.67,
+        "tilt_z": 0.679
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 5161.0,
+      "end": 5224.0,
+      "duration": 63.0,
+      "confidence": 0.318,
+      "evidence": {
+        "acc_motion_std": 0.0388,
+        "gyro_energy": 0.0457,
+        "dominant_freq_hz": 1.08,
+        "tilt_z": 0.56
+      }
+    },
+    {
+      "activity": "standing_in_place",
+      "start": 5224.0,
+      "end": 5287.0,
+      "duration": 63.0,
+      "confidence": 0.3,
+      "evidence": {
+        "acc_motion_std": 0.0397,
+        "gyro_energy": 0.0788,
+        "dominant_freq_hz": 0.37,
+        "tilt_z": 0.375
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 5287.0,
+      "end": 5296.0,
+      "duration": 9.0,
+      "confidence": 0.305,
+      "evidence": {
+        "acc_motion_std": 0.0425,
+        "gyro_energy": 0.0467,
+        "dominant_freq_hz": 0.33,
+        "tilt_z": 0.518
+      }
+    },
+    {
+      "activity": "standing_in_place",
+      "start": 5296.0,
+      "end": 5299.0,
+      "duration": 3.0,
+      "confidence": 0.234,
+      "evidence": {
+        "acc_motion_std": 0.0407,
+        "gyro_energy": 0.026,
+        "dominant_freq_hz": 0.33,
+        "tilt_z": 0.429
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 5338.0,
+      "end": 5461.0,
+      "duration": 123.0,
+      "confidence": 0.349,
+      "evidence": {
+        "acc_motion_std": 0.0252,
+        "gyro_energy": 0.0122,
+        "dominant_freq_hz": 1.42,
+        "tilt_z": 0.364
+      }
+    },
+    {
+      "activity": "standing_in_place",
+      "start": 5461.0,
+      "end": 5521.0,
+      "duration": 60.0,
+      "confidence": 0.289,
+      "evidence": {
+        "acc_motion_std": 0.0322,
+        "gyro_energy": 0.0481,
+        "dominant_freq_hz": 0.86,
+        "tilt_z": 0.423
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 5521.0,
+      "end": 5584.0,
+      "duration": 63.0,
+      "confidence": 0.335,
+      "evidence": {
+        "acc_motion_std": 0.0245,
+        "gyro_energy": 0.0273,
+        "dominant_freq_hz": 0.46,
+        "tilt_z": 0.351
+      }
+    },
+    {
+      "activity": "standing_in_place",
+      "start": 5584.0,
+      "end": 5587.0,
+      "duration": 3.0,
+      "confidence": 0.265,
+      "evidence": {
+        "acc_motion_std": 0.0294,
+        "gyro_energy": 0.0393,
+        "dominant_freq_hz": 0.67,
+        "tilt_z": 0.332
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 5587.0,
+      "end": 5710.0,
+      "duration": 123.0,
+      "confidence": 0.315,
+      "evidence": {
+        "acc_motion_std": 0.0236,
+        "gyro_energy": 0.0226,
+        "dominant_freq_hz": 0.8,
+        "tilt_z": 0.278
+      }
+    },
+    {
+      "activity": "standing_in_place",
+      "start": 5710.0,
+      "end": 5713.0,
+      "duration": 3.0,
+      "confidence": 0.28,
+      "evidence": {
+        "acc_motion_std": 0.0184,
+        "gyro_energy": 0.007,
+        "dominant_freq_hz": 3.0,
+        "tilt_z": 0.31
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 5713.0,
+      "end": 5773.0,
+      "duration": 60.0,
+      "confidence": 0.342,
+      "evidence": {
+        "acc_motion_std": 0.0184,
+        "gyro_energy": 0.0268,
+        "dominant_freq_hz": 0.57,
+        "tilt_z": 0.334
+      }
+    },
+    {
+      "activity": "standing_in_place",
+      "start": 5773.0,
+      "end": 5776.0,
+      "duration": 3.0,
+      "confidence": 0.355,
+      "evidence": {
+        "acc_motion_std": 0.0096,
+        "gyro_energy": 0.0007,
+        "dominant_freq_hz": 6.67,
+        "tilt_z": 0.337
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 5776.0,
+      "end": 5824.0,
+      "duration": 48.0,
+      "confidence": 0.308,
+      "evidence": {
+        "acc_motion_std": 0.0267,
+        "gyro_energy": 0.0296,
+        "dominant_freq_hz": 0.78,
+        "tilt_z": 0.324
+      }
+    },
+    {
+      "activity": "standing_in_place",
+      "start": 5824.0,
+      "end": 5839.0,
+      "duration": 15.0,
+      "confidence": 0.271,
+      "evidence": {
+        "acc_motion_std": 0.0336,
+        "gyro_energy": 0.0689,
+        "dominant_freq_hz": 0.8,
+        "tilt_z": 0.156
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 5878.0,
+      "end": 5941.0,
+      "duration": 63.0,
+      "confidence": 0.365,
+      "evidence": {
+        "acc_motion_std": 0.0514,
+        "gyro_energy": 0.3102,
+        "dominant_freq_hz": 1.25,
+        "tilt_z": 0.232
+      }
+    },
+    {
+      "activity": "walking",
+      "start": 5941.0,
+      "end": 6007.0,
+      "duration": 66.0,
+      "confidence": 0.383,
+      "evidence": {
+        "acc_motion_std": 0.1603,
+        "gyro_energy": 1.6235,
+        "dominant_freq_hz": 0.81,
+        "tilt_z": 0.095
+      }
+    },
+    {
+      "activity": "standing_and_moving",
+      "start": 6007.0,
+      "end": 6019.0,
+      "duration": 12.0,
+      "confidence": 0.34,
+      "evidence": {
+        "acc_motion_std": 0.0541,
+        "gyro_energy": 0.1731,
+        "dominant_freq_hz": 1.17,
+        "tilt_z": 0.072
+      }
+    },
+    {
+      "activity": "walking",
+      "start": 6059.0,
+      "end": 6121.0,
+      "duration": 62.0,
+      "confidence": 0.454,
+      "evidence": {
+        "acc_motion_std": 0.1964,
+        "gyro_energy": 2.225,
+        "dominant_freq_hz": 0.58,
+        "tilt_z": 0.142
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 6121.0,
+      "end": 6247.0,
+      "duration": 126.0,
+      "confidence": 0.35,
+      "evidence": {
+        "acc_motion_std": 0.023,
+        "gyro_energy": 0.0749,
+        "dominant_freq_hz": 0.87,
+        "tilt_z": 0.603
+      }
+    },
+    {
+      "activity": "standing_in_place",
+      "start": 6247.0,
+      "end": 6253.0,
+      "duration": 6.0,
+      "confidence": 0.29,
+      "evidence": {
+        "acc_motion_std": 0.0602,
+        "gyro_energy": 0.3208,
+        "dominant_freq_hz": 1.0,
+        "tilt_z": -0.789
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 6253.0,
+      "end": 6310.0,
+      "duration": 57.0,
+      "confidence": 0.288,
+      "evidence": {
+        "acc_motion_std": 0.0316,
+        "gyro_energy": 0.1111,
+        "dominant_freq_hz": 0.44,
+        "tilt_z": -0.782
+      }
+    },
+    {
+      "activity": "standing_in_place",
+      "start": 6310.0,
+      "end": 6319.0,
+      "duration": 9.0,
+      "confidence": 0.302,
+      "evidence": {
+        "acc_motion_std": 0.067,
+        "gyro_energy": 0.3864,
+        "dominant_freq_hz": 0.33,
+        "tilt_z": -0.843
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 6358.0,
+      "end": 6433.0,
+      "duration": 75.0,
+      "confidence": 0.443,
+      "evidence": {
+        "acc_motion_std": 0.0032,
+        "gyro_energy": 0.0006,
+        "dominant_freq_hz": 1.53,
+        "tilt_z": 0.823
+      }
+    },
+    {
+      "activity": "standing_in_place",
+      "start": 6433.0,
+      "end": 6499.0,
+      "duration": 66.0,
+      "confidence": 0.349,
+      "evidence": {
+        "acc_motion_std": 0.0074,
+        "gyro_energy": 0.0061,
+        "dominant_freq_hz": 0.55,
+        "tilt_z": 0.761
+      }
+    },
+    {
+      "activity": "walking",
+      "start": 6538.0,
+      "end": 6550.0,
+      "duration": 12.0,
+      "confidence": 0.413,
+      "evidence": {
+        "acc_motion_std": 0.1698,
+        "gyro_energy": 2.0147,
+        "dominant_freq_hz": 0.67,
+        "tilt_z": 0.363
+      }
+    },
+    {
+      "activity": "standing_in_place",
+      "start": 6550.0,
+      "end": 6556.0,
+      "duration": 6.0,
+      "confidence": 0.25,
+      "evidence": {
+        "acc_motion_std": 0.0482,
+        "gyro_energy": 0.0786,
+        "dominant_freq_hz": 1.0,
+        "tilt_z": 0.579
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 6556.0,
+      "end": 6721.0,
+      "duration": 165.0,
+      "confidence": 0.333,
+      "evidence": {
+        "acc_motion_std": 0.0304,
+        "gyro_energy": 0.2719,
+        "dominant_freq_hz": 0.94,
+        "tilt_z": 0.597
+      }
+    },
+    {
+      "activity": "walking",
+      "start": 6721.0,
+      "end": 6730.0,
+      "duration": 9.0,
+      "confidence": 0.392,
+      "evidence": {
+        "acc_motion_std": 0.1703,
+        "gyro_energy": 2.0673,
+        "dominant_freq_hz": 0.56,
+        "tilt_z": 0.134
+      }
+    },
+    {
+      "activity": "standing_in_place",
+      "start": 6730.0,
+      "end": 6733.0,
+      "duration": 3.0,
+      "confidence": 0.527,
+      "evidence": {
+        "acc_motion_std": 0.5218,
+        "gyro_energy": 3.0304,
+        "dominant_freq_hz": 1.0,
+        "tilt_z": 0.263
+      }
+    },
+    {
+      "activity": "walking",
+      "start": 6733.0,
+      "end": 6796.0,
+      "duration": 63.0,
+      "confidence": 0.434,
+      "evidence": {
+        "acc_motion_std": 0.2575,
+        "gyro_energy": 2.9863,
+        "dominant_freq_hz": 0.67,
+        "tilt_z": 0.07
+      }
+    },
+    {
+      "activity": "standing_in_place",
+      "start": 6796.0,
+      "end": 6913.0,
+      "duration": 117.0,
+      "confidence": 0.411,
+      "evidence": {
+        "acc_motion_std": 0.0478,
+        "gyro_energy": 0.2921,
+        "dominant_freq_hz": 0.72,
+        "tilt_z": 0.013
+      }
+    },
+    {
+      "activity": "walking",
+      "start": 6913.0,
+      "end": 6970.0,
+      "duration": 57.0,
+      "confidence": 0.427,
+      "evidence": {
+        "acc_motion_std": 0.2025,
+        "gyro_energy": 2.1735,
+        "dominant_freq_hz": 0.56,
+        "tilt_z": 0.07
+      }
+    },
+    {
+      "activity": "standing_in_place",
+      "start": 6970.0,
+      "end": 6979.0,
+      "duration": 9.0,
+      "confidence": 0.323,
+      "evidence": {
+        "acc_motion_std": 0.0794,
+        "gyro_energy": 0.4799,
+        "dominant_freq_hz": 0.44,
+        "tilt_z": 0.016
+      }
+    },
+    {
+      "activity": "walking",
+      "start": 7019.0,
+      "end": 7028.0,
+      "duration": 9.0,
+      "confidence": 0.36,
+      "evidence": {
+        "acc_motion_std": 0.2986,
+        "gyro_energy": 5.02,
+        "dominant_freq_hz": 0.89,
+        "tilt_z": -0.639
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 7028.0,
+      "end": 7034.0,
+      "duration": 6.0,
+      "confidence": 0.302,
+      "evidence": {
+        "acc_motion_std": 0.0021,
+        "gyro_energy": 0.0009,
+        "dominant_freq_hz": 0.33,
+        "tilt_z": -0.702
+      }
+    },
+    {
+      "activity": "standing_in_place",
+      "start": 7034.0,
+      "end": 7037.0,
+      "duration": 3.0,
+      "confidence": 0.339,
+      "evidence": {
+        "acc_motion_std": 0.0089,
+        "gyro_energy": 0.0047,
+        "dominant_freq_hz": 0.33,
+        "tilt_z": -0.681
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 7037.0,
+      "end": 7213.0,
+      "duration": 176.0,
+      "confidence": 0.356,
+      "evidence": {
+        "acc_motion_std": 0.0249,
+        "gyro_energy": 0.3093,
+        "dominant_freq_hz": 1.84,
+        "tilt_z": -0.771
+      }
+    },
+    {
+      "activity": "bicycling",
+      "start": 7213.0,
+      "end": 7330.0,
+      "duration": 117.0,
+      "confidence": 0.401,
+      "evidence": {
+        "acc_motion_std": 0.0017,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 3.41,
+        "tilt_z": -0.832
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 7330.0,
+      "end": 7333.0,
+      "duration": 3.0,
+      "confidence": 0.384,
+      "evidence": {
+        "acc_motion_std": 0.0014,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 5.67,
+        "tilt_z": -0.827
+      }
+    },
+    {
+      "activity": "bicycling",
+      "start": 7333.0,
+      "end": 7573.0,
+      "duration": 240.0,
+      "confidence": 0.374,
+      "evidence": {
+        "acc_motion_std": 0.0017,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 3.02,
+        "tilt_z": -0.823
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 7573.0,
+      "end": 7627.0,
+      "duration": 54.0,
+      "confidence": 0.275,
+      "evidence": {
+        "acc_motion_std": 0.0498,
+        "gyro_energy": 0.7222,
+        "dominant_freq_hz": 0.4,
+        "tilt_z": -0.769
+      }
+    },
+    {
+      "activity": "standing_in_place",
+      "start": 7627.0,
+      "end": 7633.0,
+      "duration": 6.0,
+      "confidence": 0.292,
+      "evidence": {
+        "acc_motion_std": 0.0376,
+        "gyro_energy": 0.097,
+        "dominant_freq_hz": 0.5,
+        "tilt_z": -0.748
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 7633.0,
+      "end": 7742.0,
+      "duration": 109.0,
+      "confidence": 0.373,
+      "evidence": {
+        "acc_motion_std": 0.0435,
+        "gyro_energy": 0.4877,
+        "dominant_freq_hz": 2.1,
+        "tilt_z": -0.853
+      }
+    },
+    {
+      "activity": "standing_in_place",
+      "start": 7742.0,
+      "end": 7754.0,
+      "duration": 12.0,
+      "confidence": 0.362,
+      "evidence": {
+        "acc_motion_std": 0.0796,
+        "gyro_energy": 0.8987,
+        "dominant_freq_hz": 0.33,
+        "tilt_z": 0.079
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 7754.0,
+      "end": 7810.0,
+      "duration": 56.0,
+      "confidence": 0.4,
+      "evidence": {
+        "acc_motion_std": 0.0042,
+        "gyro_energy": 0.0003,
+        "dominant_freq_hz": 1.11,
+        "tilt_z": -0.555
+      }
+    },
+    {
+      "activity": "standing_and_moving",
+      "start": 7810.0,
+      "end": 7861.0,
+      "duration": 51.0,
+      "confidence": 0.597,
+      "evidence": {
+        "acc_motion_std": 0.0015,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 4.83,
+        "tilt_z": -0.947
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 7861.0,
+      "end": 8047.0,
+      "duration": 186.0,
+      "confidence": 0.386,
+      "evidence": {
+        "acc_motion_std": 0.0347,
+        "gyro_energy": 0.2096,
+        "dominant_freq_hz": 1.2,
+        "tilt_z": -0.905
+      }
+    },
+    {
+      "activity": "standing_and_moving",
+      "start": 8047.0,
+      "end": 8119.0,
+      "duration": 72.0,
+      "confidence": 0.566,
+      "evidence": {
+        "acc_motion_std": 0.0022,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 4.91,
+        "tilt_z": -0.948
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 8158.0,
+      "end": 8284.0,
+      "duration": 126.0,
+      "confidence": 0.32,
+      "evidence": {
+        "acc_motion_std": 0.0427,
+        "gyro_energy": 0.2282,
+        "dominant_freq_hz": 0.58,
+        "tilt_z": -0.753
+      }
+    },
+    {
+      "activity": "standing_in_place",
+      "start": 8284.0,
+      "end": 8290.0,
+      "duration": 6.0,
+      "confidence": 0.29,
+      "evidence": {
+        "acc_motion_std": 0.0541,
+        "gyro_energy": 0.1674,
+        "dominant_freq_hz": 0.67,
+        "tilt_z": -0.832
+      }
+    },
+    {
+      "activity": "walking",
+      "start": 8290.0,
+      "end": 8341.0,
+      "duration": 51.0,
+      "confidence": 0.3,
+      "evidence": {
+        "acc_motion_std": 0.2056,
+        "gyro_energy": 4.0648,
+        "dominant_freq_hz": 0.42,
+        "tilt_z": -0.319
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 8341.0,
+      "end": 8416.0,
+      "duration": 75.0,
+      "confidence": 0.418,
+      "evidence": {
+        "acc_motion_std": 0.003,
+        "gyro_energy": 0.0001,
+        "dominant_freq_hz": 2.75,
+        "tilt_z": 0.121
+      }
+    },
+    {
+      "activity": "standing_and_moving",
+      "start": 8416.0,
+      "end": 8473.0,
+      "duration": 57.0,
+      "confidence": 0.358,
+      "evidence": {
+        "acc_motion_std": 0.0014,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 2.94,
+        "tilt_z": 0.976
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 8473.0,
+      "end": 8584.0,
+      "duration": 111.0,
+      "confidence": 0.422,
+      "evidence": {
+        "acc_motion_std": 0.0038,
+        "gyro_energy": 0.0001,
+        "dominant_freq_hz": 2.88,
+        "tilt_z": 0.977
+      }
+    },
+    {
+      "activity": "standing_and_moving",
+      "start": 8584.0,
+      "end": 8644.0,
+      "duration": 60.0,
+      "confidence": 0.416,
+      "evidence": {
+        "acc_motion_std": 0.0021,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 3.52,
+        "tilt_z": 0.977
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 8644.0,
+      "end": 8653.0,
+      "duration": 9.0,
+      "confidence": 0.36,
+      "evidence": {
+        "acc_motion_std": 0.0084,
+        "gyro_energy": 0.0003,
+        "dominant_freq_hz": 0.56,
+        "tilt_z": 0.976
+      }
+    },
+    {
+      "activity": "standing_and_moving",
+      "start": 8653.0,
+      "end": 8704.0,
+      "duration": 51.0,
+      "confidence": 0.401,
+      "evidence": {
+        "acc_motion_std": 0.0015,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 4.5,
+        "tilt_z": 0.977
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 8704.0,
+      "end": 8764.0,
+      "duration": 60.0,
+      "confidence": 0.426,
+      "evidence": {
+        "acc_motion_std": 0.003,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 1.05,
+        "tilt_z": 0.975
+      }
+    },
+    {
+      "activity": "standing_and_moving",
+      "start": 8764.0,
+      "end": 8776.0,
+      "duration": 12.0,
+      "confidence": 0.419,
+      "evidence": {
+        "acc_motion_std": 0.0016,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 6.33,
+        "tilt_z": 0.966
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 8776.0,
+      "end": 8830.0,
+      "duration": 54.0,
+      "confidence": 0.425,
+      "evidence": {
+        "acc_motion_std": 0.003,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 1.0,
+        "tilt_z": 0.963
+      }
+    },
+    {
+      "activity": "standing_and_moving",
+      "start": 8830.0,
+      "end": 8833.0,
+      "duration": 3.0,
+      "confidence": 0.36,
+      "evidence": {
+        "acc_motion_std": 0.0015,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 7.0,
+        "tilt_z": 0.953
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 8833.0,
+      "end": 8944.0,
+      "duration": 111.0,
+      "confidence": 0.354,
+      "evidence": {
+        "acc_motion_std": 0.0069,
+        "gyro_energy": 0.0049,
+        "dominant_freq_hz": 1.54,
+        "tilt_z": 0.956
+      }
+    },
+    {
+      "activity": "standing_and_moving",
+      "start": 8944.0,
+      "end": 8959.0,
+      "duration": 15.0,
+      "confidence": 0.329,
+      "evidence": {
+        "acc_motion_std": 0.0021,
+        "gyro_energy": 0.0001,
+        "dominant_freq_hz": 3.07,
+        "tilt_z": 0.957
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 8998.0,
+      "end": 9919.0,
+      "duration": 921.0,
+      "confidence": 0.374,
+      "evidence": {
+        "acc_motion_std": 0.0266,
+        "gyro_energy": 0.327,
+        "dominant_freq_hz": 2.08,
+        "tilt_z": -0.882
+      }
+    },
+    {
+      "activity": "walking",
+      "start": 9958.0,
+      "end": 9961.0,
+      "duration": 3.0,
+      "confidence": 0.269,
+      "evidence": {
+        "acc_motion_std": 0.0012,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 5.33,
+        "tilt_z": -0.946
+      }
+    },
+    {
+      "activity": "bicycling",
+      "start": 9961.0,
+      "end": 9973.0,
+      "duration": 12.0,
+      "confidence": 0.29,
+      "evidence": {
+        "acc_motion_std": 0.0013,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 3.0,
+        "tilt_z": -0.946
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 9973.0,
+      "end": 10024.0,
+      "duration": 51.0,
+      "confidence": 0.352,
+      "evidence": {
+        "acc_motion_std": 0.0016,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 1.0,
+        "tilt_z": -0.948
+      }
+    },
+    {
+      "activity": "bicycling",
+      "start": 10024.0,
+      "end": 10090.0,
+      "duration": 66.0,
+      "confidence": 0.332,
+      "evidence": {
+        "acc_motion_std": 0.0015,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 3.07,
+        "tilt_z": -0.951
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 10090.0,
+      "end": 10144.0,
+      "duration": 54.0,
+      "confidence": 0.343,
+      "evidence": {
+        "acc_motion_std": 0.0014,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 2.67,
+        "tilt_z": -0.947
+      }
+    },
+    {
+      "activity": "bicycling",
+      "start": 10144.0,
+      "end": 10210.0,
+      "duration": 66.0,
+      "confidence": 0.314,
+      "evidence": {
+        "acc_motion_std": 0.0013,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 2.74,
+        "tilt_z": -0.943
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 10210.0,
+      "end": 10279.0,
+      "duration": 69.0,
+      "confidence": 0.323,
+      "evidence": {
+        "acc_motion_std": 0.0016,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 3.03,
+        "tilt_z": -0.941
+      }
+    },
+    {
+      "activity": "bicycling",
+      "start": 10318.0,
+      "end": 10330.0,
+      "duration": 12.0,
+      "confidence": 0.303,
+      "evidence": {
+        "acc_motion_std": 0.0015,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 4.08,
+        "tilt_z": -0.94
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 10330.0,
+      "end": 10384.0,
+      "duration": 54.0,
+      "confidence": 0.337,
+      "evidence": {
+        "acc_motion_std": 0.0019,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 1.47,
+        "tilt_z": -0.941
+      }
+    },
+    {
+      "activity": "bicycling",
+      "start": 10384.0,
+      "end": 10387.0,
+      "duration": 3.0,
+      "confidence": 0.309,
+      "evidence": {
+        "acc_motion_std": 0.0015,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 3.33,
+        "tilt_z": -0.942
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 10387.0,
+      "end": 10396.0,
+      "duration": 9.0,
+      "confidence": 0.357,
+      "evidence": {
+        "acc_motion_std": 0.0018,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 0.56,
+        "tilt_z": -0.942
+      }
+    },
+    {
+      "activity": "bicycling",
+      "start": 10396.0,
+      "end": 10450.0,
+      "duration": 54.0,
+      "confidence": 0.335,
+      "evidence": {
+        "acc_motion_std": 0.0017,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 3.4,
+        "tilt_z": -0.942
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 10450.0,
+      "end": 10459.0,
+      "duration": 9.0,
+      "confidence": 0.391,
+      "evidence": {
+        "acc_motion_std": 0.0092,
+        "gyro_energy": 0.0025,
+        "dominant_freq_hz": 1.0,
+        "tilt_z": -0.937
+      }
+    },
+    {
+      "activity": "bicycling",
+      "start": 10498.0,
+      "end": 10579.0,
+      "duration": 81.0,
+      "confidence": 0.397,
+      "evidence": {
+        "acc_motion_std": 0.0013,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 5.55,
+        "tilt_z": -0.923
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 10618.0,
+      "end": 10693.0,
+      "duration": 75.0,
+      "confidence": 0.32,
+      "evidence": {
+        "acc_motion_std": 0.0015,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 4.17,
+        "tilt_z": -0.927
+      }
+    },
+    {
+      "activity": "bicycling",
+      "start": 10693.0,
+      "end": 10861.0,
+      "duration": 168.0,
+      "confidence": 0.348,
+      "evidence": {
+        "acc_motion_std": 0.0014,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 3.41,
+        "tilt_z": -0.923
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 10861.0,
+      "end": 10873.0,
+      "duration": 12.0,
+      "confidence": 0.284,
+      "evidence": {
+        "acc_motion_std": 0.0016,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 1.33,
+        "tilt_z": -0.934
+      }
+    },
+    {
+      "activity": "bicycling",
+      "start": 10873.0,
+      "end": 10879.0,
+      "duration": 6.0,
+      "confidence": 0.31,
+      "evidence": {
+        "acc_motion_std": 0.0014,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 4.67,
+        "tilt_z": -0.933
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 10918.0,
+      "end": 10993.0,
+      "duration": 75.0,
+      "confidence": 0.353,
+      "evidence": {
+        "acc_motion_std": 0.0015,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 1.33,
+        "tilt_z": -0.932
+      }
+    },
+    {
+      "activity": "bicycling",
+      "start": 10993.0,
+      "end": 10996.0,
+      "duration": 3.0,
+      "confidence": 0.417,
+      "evidence": {
+        "acc_motion_std": 0.0014,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 2.67,
+        "tilt_z": -0.932
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 10996.0,
+      "end": 11053.0,
+      "duration": 57.0,
+      "confidence": 0.359,
+      "evidence": {
+        "acc_motion_std": 0.0014,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 3.61,
+        "tilt_z": -0.932
+      }
+    },
+    {
+      "activity": "bicycling",
+      "start": 11053.0,
+      "end": 11224.0,
+      "duration": 171.0,
+      "confidence": 0.33,
+      "evidence": {
+        "acc_motion_std": 0.0014,
+        "gyro_energy": 0.0,
+        "dominant_freq_hz": 3.09,
+        "tilt_z": -0.931
+      }
+    },
+    {
+      "activity": "sitting",
+      "start": 11224.0,
+      "end": 12212.0,
+      "duration": 988.0,
+      "confidence": 0.415,
+      "evidence": {
+        "acc_motion_std": 0.0072,
+        "gyro_energy": 0.0514,
+        "dominant_freq_hz": 2.84,
+        "tilt_z": -0.952
+      }
+    }
+  ],
+  "summary": {
+    "sitting": {
+      "total_sec": 7084.0,
+      "count": 49
+    },
+    "standing_in_place": {
+      "total_sec": 1149.0,
+      "count": 33
+    },
+    "walking": {
+      "total_sec": 1133.0,
+      "count": 24
+    },
+    "standing_and_moving": {
+      "total_sec": 639.0,
+      "count": 18
+    },
+    "bicycling": {
+      "total_sec": 1308.0,
+      "count": 16
+    }
+  }
+}

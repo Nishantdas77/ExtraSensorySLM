@@ -4,3 +4,8 @@ label_table.csv
 result.txt
 rf_model.joblib
 windows.npz
+windows_40hz.npz
+windows_40hz_old.npz
+feat40.npz
+rf_model_40hz.joblib
+rf_results.npz

@@ -1,11 +1,4 @@
 """
-STEP 1 — Build the "answer key": one table of (user, timestamp, activity).
-
-Uses:
-  data/labels/    -> cleaned labels  (LYING_DOWN, SITTING, FIX_walking, FIX_running, BICYCLING, OR_standing)
-  data/original/  -> original labels (STANDING_IN_PLACE, STANDING_AND_MOVING) to split "standing"
-
-Rule: keep a minute only if EXACTLY ONE of the 7 activities applies (clean training data).
 Output: label_table.csv  with columns: uuid, timestamp, activity
 """
 import glob, os
