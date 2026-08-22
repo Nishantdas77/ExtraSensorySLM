@@ -170,27 +170,80 @@ def summarize(intervals, duration):
     return s
 
 # ---------------- main ------------------------------------------------------
+def collect_user_files(uuid, acc_root="data/raw_acc", gyro_root="data/raw_gyro"):
+    """Find every (timestamp, acc_path, gyro_path) for one user, sorted by time."""
+    import glob
+    acc = {}
+    for p in glob.glob(os.path.join(acc_root, "**", uuid, "*"), recursive=True):
+        ts = os.path.basename(p).split(".")[0]
+        if ts.isdigit(): acc[int(ts)] = p
+    gyr = {}
+    for p in glob.glob(os.path.join(gyro_root, "**", uuid, "*"), recursive=True):
+        ts = os.path.basename(p).split(".")[0]
+        if ts.isdigit(): gyr[int(ts)] = p
+    common = sorted(set(acc) & set(gyr))
+    return [(ts, acc[ts], gyr[ts]) for ts in common]
+
+
+def build_user_windows(uuid, acc_root, gyro_root, max_minutes=None):
+    """Stitch a whole user's recording. Returns windows + absolute times (sec from first minute)."""
+    files = collect_user_files(uuid, acc_root, gyro_root)
+    if max_minutes: files = files[:max_minutes]
+    if not files:
+        raise SystemExit(f"No paired acc+gyro files found for user {uuid}")
+    t0_abs = files[0][0]                      # first minute's unix timestamp
+    all_w, all_t = [], []
+    for k, (ts, pa, pg) in enumerate(files):
+        try:
+            t_acc, acc = load_raw(pa)
+            t_gyr, gyr = load_raw(pg)
+        except Exception:
+            continue
+        offset = float(ts - t0_abs)           # where this minute sits on the global clock
+        wins, times = cut_windows(t_acc, acc, t_gyr, gyr)
+        for w, (s0, e0) in zip(wins, times):
+            all_w.append(w); all_t.append((offset + s0, offset + e0))
+        if (k+1) % 200 == 0:
+            print(f"  processed {k+1}/{len(files)} minutes", flush=True)
+    return all_w, all_t, len(files)
+
+
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("--acc", required=True, help="raw accelerometer .dat")
-    ap.add_argument("--gyro", required=True, help="raw gyroscope .dat")
+    ap.add_argument("--user", help="UUID -> stitch ALL of this user's recording")
+    ap.add_argument("--acc",  help="single raw accelerometer .dat")
+    ap.add_argument("--gyro", help="single raw gyroscope .dat")
+    ap.add_argument("--acc-root",  default="data/raw_acc")
+    ap.add_argument("--gyro-root", default="data/raw_gyro")
+    ap.add_argument("--max-minutes", type=int, default=None,
+                    help="limit for a quick test, e.g. 200")
     ap.add_argument("--model", default="rf", choices=["rf","cnn"])
     ap.add_argument("--out", default="timeline.json")
     args = ap.parse_args()
 
-    t_acc, acc = load_raw(args.acc)
-    t_gyr, gyr = load_raw(args.gyro)
-    print(f"recording duration: {min(t_acc[-1], t_gyr[-1]):.1f}s")
+    if args.user:
+        print(f"Building timeline for user {args.user} ...", flush=True)
+        wins, times, n_min = build_user_windows(args.user, args.acc_root,
+                                                args.gyro_root, args.max_minutes)
+        print(f"  {n_min} minutes -> {len(wins)} windows", flush=True)
+    elif args.acc and args.gyro:
+        t_acc, acc = load_raw(args.acc)
+        t_gyr, gyr = load_raw(args.gyro)
+        wins, times = cut_windows(t_acc, acc, t_gyr, gyr)
+        print(f"{len(wins)} windows from a single recording", flush=True)
+    else:
+        raise SystemExit("Give either --user UUID  or  --acc FILE --gyro FILE")
 
-    wins, times = cut_windows(t_acc, acc, t_gyr, gyr)
-    print(f"{len(wins)} non-overlapping {WIN_SEC}s windows @ {TARGET_FS}Hz")
+    if not wins:
+        raise SystemExit("No usable windows found.")
 
+    print("Classifying windows ...", flush=True)
     labels, conf = (predict_rf(wins) if args.model=="rf" else predict_cnn(wins))
     evid = [window_evidence(w) for w in wins]
 
     labels = smooth(labels)
     intervals = merge(labels, times, conf, evid)
-    duration = round(float(times[-1][1]),1) if times else 0.0
+    duration = round(float(times[-1][1]), 1)
 
     timeline = {
         "recording_duration_sec": duration,
@@ -198,11 +251,18 @@ if __name__ == "__main__":
         "sampling_rate_hz": TARGET_FS,
         "window_sec": WIN_SEC,
         "model": args.model,
+        "n_windows": len(wins),
         "intervals": intervals,
         "summary": summarize(intervals, duration),
     }
     with open(args.out, "w") as f:
         json.dump(timeline, f, indent=2)
-    print(f"saved {args.out}  ({len(intervals)} intervals)")
+
+    print(f"\nsaved {args.out}")
+    print(f"  duration: {duration/3600:.2f} hours, {len(intervals)} intervals")
+    print("\n  summary:")
+    for a, v in sorted(timeline["summary"].items(), key=lambda kv: -kv[1]["total_sec"]):
+        print(f"    {a:22s} {v['total_sec']:9.1f}s  in {v['count']} bout(s)")
+    print("\n  first 10 intervals:")
     for iv in intervals[:10]:
-        print(f"  {iv['activity']:20s} {iv['start']:8.1f} - {iv['end']:8.1f}s  ({iv['duration']}s)")
+        print(f"    {iv['activity']:22s} {iv['start']:9.1f} - {iv['end']:9.1f}s  ({iv['duration']}s)")
