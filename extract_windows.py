@@ -2,14 +2,14 @@
 YOU SET THESE TWO:
   TARGET_FS  = 40   (or 25)
   WIN_SEC    = 3.0  (or 5.0)
-Output: windows_40hz.npz -> X (N, WIN, 6), y (N,), groups (N,)
+Output: windows_25hz.npz -> X (N, WIN, 6), y (N,), groups (N,)
 """
 import os, glob
 import numpy as np
 import pandas as pd
 
 # ============ YOU CHANGE THESE ============
-TARGET_FS = 40          # output rate in Hz  (set 25 or 40)
+TARGET_FS = 25          # output rate in Hz  (set 25 or 40)
 WIN_SEC   = 3.0         # window length in seconds (set 3.0 or 5.0)
 OVERLAP   = 0.5         # 50% overlap between windows
 # ==========================================

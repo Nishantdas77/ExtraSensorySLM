@@ -1,6 +1,4 @@
-"""
-Output: label_table.csv  with columns: uuid, timestamp, activity
-"""
+
 import glob, os
 import pandas as pd
 
